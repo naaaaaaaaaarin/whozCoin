@@ -21,7 +21,7 @@ header nav ul {
   display: flex;
 }
 header nav li {
-  margin-left: 58px;
+  margin-left: 4.461%;
 }
 header nav li:first-child {
   margin-left: 0;
@@ -116,11 +116,15 @@ main > div a img {
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
-  padding: 43px 0 0 91px;
+  padding: 43px 0 0 7%;
 }
 #overview .whoz .text {
   margin-bottom: 29px;
 }
+#overview .whoz > img {
+  width: 50%;
+} 
+
 #overview .whoz .btn {
   display: flex;
   width: 188px;
@@ -285,6 +289,9 @@ main > div a img {
 #platform .center .mobilie {
   display: none;
 }
+#platform > div img:nth-child(3) {
+  width: 50%;
+}
 #platform > div img:last-child {
   display: none;
 }
@@ -336,7 +343,7 @@ main > div a img {
   margin-bottom: 54px;
 }
 #giveBack .container {
-  width: 904px;
+  width: 47.08%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -344,13 +351,13 @@ main > div a img {
 #giveBack .container article{
   font-family: 'Noto Sans', sans-serif;
   background-repeat: no-repeat;
-  width: 436px;
+  width: 48%;
   height: 436px;
   border-radius: 30px;
 }
 #giveBack .container article:nth-child(1){
   background-image: url(../images/closeup-of-applicant-completing-application-form\ 1.png);
-  margin-right: 32px;
+  margin-right: 1.66%;
   margin-bottom: 32px;
 }
 #giveBack .container article:nth-child(2){
@@ -360,7 +367,7 @@ main > div a img {
 }
 #giveBack .container article:nth-child(3){
   background-image: url(../images/hand-holding-smartphone-with-electronic-bill-notification-flying-out-of-the-screen-for-connected-card-e-billing-and-payment-by-credit-card-via-electronic-wallet\ 1.png);
-  margin-right: 32px;
+  margin-right: 1.66%;
 }
 #giveBack .container article:nth-child(4){
   background-image: url(../images/medium-shot-old-people-running-outdoors\ 1.png);
