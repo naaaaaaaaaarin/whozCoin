@@ -21,7 +21,7 @@ header nav ul {
   display: flex;
 }
 header nav li {
-  margin-left: 4.461%;
+  margin-left: 58px;
 }
 header nav li:first-child {
   margin-left: 0;
@@ -106,6 +106,7 @@ main > div a img {
   font-size: 14px;
   font-family: 'Noto Sans', sans-serif;
   color: var(--gray-color);
+  line-height: 22px;
 }
 #overview .bottom {
   display: flex;
@@ -124,7 +125,6 @@ main > div a img {
 #overview .whoz > img {
   width: 50%;
 } 
-
 #overview .whoz .btn {
   display: flex;
   width: 188px;
@@ -154,9 +154,12 @@ main > div a img {
 #overview .DNA {
   margin-right: 2.307%;
 }
-#overview .text {
-  margin-bottom: 29px;
-  line-height: 22px;
+#overview .DNA .cont{
+  margin-top: 30px;
+}
+#overview .DNA .text {
+  margin: 15px 0 29px;
+  line-height: 25px;
 }
 #overview .DNA .text2 {
   display: none;
