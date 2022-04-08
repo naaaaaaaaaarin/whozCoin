@@ -49,9 +49,11 @@ main > div h2 {
   line-height: 61px;
 }
 main > div > div {
+  font-family: 'Noto Sans', sans-serif;
   font-size: 40px;
   font-weight: 600;
   margin: 70px 0 18px;
+  line-height: 50px;
 }
 main > div > p:nth-child(3) {
   font-size: 18px;
@@ -116,7 +118,7 @@ main > div a img {
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
-  padding: 43px 0 0 91px;
+  padding: 43px 0 40px 91px;
 }
 #overview .whoz .text {
   margin-bottom: 29px;
@@ -161,6 +163,12 @@ main > div a img {
   font-size: 14px;
   color: var(--gray-color);
 }
+#overview .system .head {
+  line-height: 45px;
+}
+#overview .system .cont {
+  margin-bottom: 10px;
+}
 #overview .system .head2,
 #overview .system .text2 {
   display: none;
@@ -179,6 +187,10 @@ main > div a img {
   width: 31.923%;
   padding-right: 1.538%;
 }
+#dnaInsights article:last-child h4 {
+  line-height: 27px;
+}
+
 #dnaInsights .img {
   overflow: hidden;
   width: 100%;
@@ -196,7 +208,7 @@ main > div a img {
   justify-content: center;
 }
 #dnaInsights .hash li {
-  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   color: var(--gray-color);
   border-radius: 13px;
   padding: 3px 9px;
@@ -270,13 +282,11 @@ main > div a img {
 }
 #platform .center .pc p:nth-child(1){
   margin: 60px 0 27px;
+  line-height: 22px;
 }
 #platform .center .pc p:nth-child(2){
   margin-bottom: 24px;
-  line-height: 25px;
-}
-#platform .center .pc p:nth-child(3) {
-  line-height: 25px;
+  line-height: 22px;
 }
 #platform .left,
 #platform .center {
@@ -365,6 +375,10 @@ main > div a img {
 #giveBack .container article:nth-child(4){
   background-image: url(../images/medium-shot-old-people-running-outdoors\ 1.png);
 }
+#giveBack .container article:nth-child(3) p,
+#giveBack .container article:nth-child(4) p {
+  line-height: 22px;
+}
 #giveBack .container .text {
   padding-top: 42px;
   padding-left: 37px;
@@ -384,10 +398,12 @@ main > div a img {
 #vision {
   width: 100%;
   height: 422px;
+  padding-bottom: 10%;
   display: flex;
   background-color: #f5f5f5;
   margin-top: 200px;
-}#vision img {
+}
+#vision img {
   display: none;
 }
 #vision .img {
@@ -461,33 +477,5 @@ main > div a img {
 }
 
 @media screen and (max-width:1070px) {
-  #partners ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 85px;
-  }
-  #partners li:nth-child(1){background-image: url(../images/myongi_hospital.png);}
-  #partners li:nth-child(2){
-    background-image: url(../images/dongam.png);
-  }
-  #partners li:nth-child(3){background-image: url(../images/bareun.png);}
-  #partners li:nth-child(4){
-  background-image: url(../images/symhpony.png);
-  margin-right: 0;
-  margin-top: 10px;
-  }
-}
-
-@media screen and (max-width:869px) {
-  #partners li:nth-child(1){background-image: url(../images/myongi_hospital.png);}
-  #partners li:nth-child(2){
-    background-image: url(../images/dongam.png);
-  }
-  #partners li:nth-child(3){background-image: url(../images/bareun.png);}
-  #partners li:nth-child(4){
-  background-image: url(../images/symhpony.png);
-  margin-right: 0;
-  margin-top: 10px;
-  }
+  
 }

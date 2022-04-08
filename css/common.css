@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400;700&display=swap');
 
 :root {
   --gray-color: #a4a4a4;
@@ -15,6 +15,11 @@ body {
   width: 94%;
   max-width: 1300px;
   margin: 0 auto;
+}
+.w1176 {
+  width: 94%;
+  max-width: 1176px;
+  margin: 0 atuo;
 }
 a {
   color: inherit;
