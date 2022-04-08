@@ -1,0 +1,572 @@
+@media screen and (max-width:425px) {
+  /* Header */
+  header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: relative;
+  }
+  header nav {
+    display: none;
+    position: absolute;
+    left: -12px;
+    top: 99%;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding: 35px 12px;
+    width: 100%;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  header nav li {
+    transform: translateX(65%);
+    -webkit-transform: translateX(65%);
+    width: 158px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #CFCFCF;;
+  }
+  header nav li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  header nav li a {
+    font-size: 12px;
+  }
+  header .hamMenu {
+    display: block;
+  }
+  .ham {
+    background-image: url(../images/ham.png);
+    width: 25px;
+    height: 20px;
+  }
+  .open {
+    background-image: url(../images/close.png);
+    width: 25px;
+    height: 25px;
+  }
+
+  /* main */
+  main {
+    background-image: url(../images/mainBanner.png);
+    width: 100%;
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+  }
+  main > div {
+    padding-top: 56px;
+  }
+  main > div h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 61px;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+  }
+  main > div > div {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin:  0;
+    line-height: 26px;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+  }
+  main > div > p:nth-child(3) {
+    display: none;
+  }
+  main > div > p:nth-child(4) {
+    display: block;
+    margin: 13px 0 29px;
+    line-height: 22px;
+    font-size: 14px;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+  }
+  main > div a .btn{
+    background-color: #fff;
+    border-radius: 20.5px;
+    display: flex;
+    align-items: center;
+    padding: 11px 22px;
+    width: 192px;
+    height: 19px;
+    margin: 0 auto;
+  }
+  main > div a p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 9px;
+    color: var(--whoz-color);
+  }
+  main > div a img {
+    transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+  }
+
+  /* overview */
+  #overview {
+    margin: 75px 0;
+  }
+  #overview .head,
+  #overview .head2 {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  #overview .cont {
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 16px 0 14px;
+    line-height: 25px;
+  }
+  #overview .text,
+  #overview .text2 {
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--gray-color);
+    line-height: 22px;
+    margin-bottom: 11px;
+  }
+  #overview .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 16px;
+  }
+  #overview .whoz {
+    margin-top: 38px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 26px 0 22px 20px;
+    position: relative;
+  }
+  #overview .whoz img {
+    width: 192px;
+    height: 50px;
+  }
+  #overview .whoz .cont{
+    width: 220px;
+  }
+  #overview .whoz .text {
+    margin-bottom: 153px;
+    width: 255px;
+  }
+  #overview .whoz .btn {
+    display: flex;
+    width: 188px;
+    height: 41px;
+    justify-content: center;
+    align-items: center;
+    background:var(--whoz-color);
+    border-radius: 20.5px
+  }
+  #overview .whoz .btn img {
+    width: 11.5px;
+    height: 9px;
+    transform: translateY(1px);
+    -webkit-transform: translateY(1px);
+  }
+  #overview .whoz .kit {
+    width: 188px;
+    height: 130px;
+    position: absolute;
+    top: 230px;
+  }
+  #overview .DNA,
+  #overview .system {
+    width: 100%;
+    position: relative;
+    padding: 0;
+  }
+  #overview .DNA .contents,
+  #overview .system .contents {
+    padding-left: 20px;
+  }
+  #overview .DNA {
+    margin-right: 0;
+    margin-bottom: 16px;
+    padding: 28px 0 26px;
+  }
+  #overview .DNA .head {
+    width: 190px;
+  }
+  #overview .DNA .text {
+    display: none;
+  }
+  #overview .DNA .text2 {
+    display: block;
+  }
+  #overview .DNA p:last-child {
+    font-size: 14px;
+    color: var(--gray-color);
+    /* width: 320px; */
+    line-height: 19px;
+  }
+  #overview .system {
+    padding: 14px 0 40px;
+  }
+  #overview .system .head {
+    display: none;
+  }
+  #overview .system .head2{
+    display: block;
+  }
+  #overview .system .text {
+    display: none;
+  }
+  #overview .system .text2{
+    display: block;
+    margin-bottom: 0;
+  }
+
+  /* DNA Insight */
+  #dnaInsights .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 42px;
+  }
+  #dnaInsights article {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 46px;
+  }
+  #dnaInsights article:last-child {
+    margin-bottom: 0;
+  }
+  #dnaInsights h4 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    margin: 21px 0 14px;
+  }
+  #dnaInsights article:last-child h4 {
+    font-size: 19px;
+  }
+  #dnaInsights .hash {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #dnaInsights .hash li {
+    font-family: 'Roboto', sans-serif;
+    color: var(--gray-color);
+    border-radius: 13px;
+    padding: 3px 9px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    margin: 7px 2px 0 5px;
+  }
+
+  /* High-quality */
+  #quality {
+    height: 350px;
+    position: relative;
+    text-align: center;
+    margin-top: 120px;
+  }
+  #quality .grad {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/man-in-lab-doing-experiments1_m.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #quality .container {
+    color: #fff;
+    position: absolute;
+    top: 81px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    width: 100%;
+  }
+  #quality .container h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    line-height: 53px;
+  }
+  #quality .container p:nth-child(2) {
+    display: none;
+  }
+  #quality .container p:last-child {
+    display: block;
+  }
+
+  /* Platform */
+  #platform {
+    margin-top: 0px;
+    padding-top: 187px;
+    position: relative;
+  }
+  #platform > div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #platform .left {
+    width: 10px;
+    height: 89.07px;
+    background-color: var(--whoz-color);
+    position: absolute;
+    top: 392px;
+  }
+  #platform .center {
+    margin: 0 10px 0 8px;
+  }
+  #platform .center .title{
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+  #platform .left,
+  #platform .center {
+    margin-top: 0px;
+  }
+  #platform .center .pc {
+    display: none;
+  }
+  #platform .center .mobilie {
+    display: block;
+    font-size: 14px;
+    /* width: 366px; */
+    margin-left: 10px;
+  }
+  #platform .center .mobilie p:first-child {
+    margin: 24.58px 0 27px;
+  }
+  #platform .center .mobilie p:nth-child(2) {
+    line-height: 22px;
+  }
+  #platform .center .mobilie p:last-child {
+    margin-top: 27px;
+    line-height: 22px;
+  }
+  #platform > div img:nth-child(3){
+    display: none;
+  }
+  #platform > div img:last-child {
+    display: block;
+  }
+
+  /* Use */
+  #use {
+    margin-top: 120px;
+  }
+  #use .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 38px;
+  }
+  #use .contents:first-child {
+    margin-bottom: 45px;
+  }
+  #use .contents img {
+    border-radius: 9px;
+    margin-right: 0px;
+    width: 100%;
+  }
+  #use .contents img:nth-child(1) {
+    display: none;
+  }
+  #use .contents img:nth-child(2) {
+    display: block;
+  }
+  #use .text h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 28px;
+    margin-bottom: 14px;
+  }
+  #use .text p {
+    line-height: 25px;
+  }
+  #use .text p:nth-child(2) {
+    display: none;
+  }
+  #use .text p:last-child {
+    display: block;
+  }
+
+  /* Give Back */
+  #giveBack {
+    margin-top: 120px;
+  }
+  #giveBack .title{
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  #giveBack .container {
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #giveBack .container article{
+    font-family: 'Noto Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 358px;
+    border-radius: 30px;
+  }
+  #giveBack .container article:nth-child(1){
+    background-image: url(../images/closeup-of-applicant-completing-application-form\ 1.png);
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  #giveBack .container article:nth-child(2){
+    background-image: url(../images/concept-of-copyright-and-intellectual-property\ 1.png);
+    color: #fff;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  }
+  #giveBack .container article:nth-child(3){
+    background-image: url(../images/hand-holding-smartphone-with-electronic-bill-notification-flying-out-of-the-screen-for-connected-card-e-billing-and-payment-by-credit-card-via-electronic-wallet\ 1.png);
+    margin-right: 0px;
+    margin: 15px 0;
+  }
+  #giveBack .container article:nth-child(4){
+    background-image: url(../images/medium-shot-old-people-running-outdoors\ 1.png);
+  }
+  #giveBack .container .text {
+    padding-top: 42px;
+    padding-left: 26px;
+  }
+  #giveBack .container .text div {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-top: 17px;
+    word-spacing: -2px;
+  }
+  #giveBack .container .text div:nth-child(2) {
+    display: none;
+  }
+  #giveBack .container .text div:last-child {
+    display: block;
+  }
+
+  /* Vision */
+  #vision {
+    width: 90%;
+    height: 422px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 186px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+  #vision img {
+    display: block;
+    height: 231px;
+    width: 100%;
+  }
+  #vision .img {
+    display: none;
+  }
+  #vision .contents {
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 0;
+  }
+  #vision .contents .bar {
+    width: 10px;
+    height: 89.07px;
+    background-color: var(--whoz-color);
+    margin-right: 10px;
+  }
+  #vision .contents .title {
+    position: absolute;
+    top: -36px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+  #vision .contents p {
+    text-align: left;
+    line-height: 19.36px;
+  }
+  #vision .contents .pc {
+    display: none;
+  }
+  #vision .contents .mobilie {
+    display: block;
+  }
+  #vision .contents .mobilie p:first-child {
+    margin-bottom: 27px;
+  }
+
+  /* Partners */
+  #partners {
+    text-align: center;
+    margin: 125px 0 120px;
+  }
+  #partners ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 38px;
+  }
+  #partners li {
+    width: 175px;
+    height: 72px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 13px rgba(206, 206, 206, 0.35);
+    border-radius: 15px;
+    margin-right: 0px;
+    cursor: pointer;
+  }
+  #partners li {
+    background-size: 70%;
+  }
+  #partners li:nth-child(1){
+    background-image: url(../images/myongi_hospital.png);
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+  #partners li:nth-child(2){
+    background-image: url(../images/dongam.png);
+    margin-bottom: 8px;
+  }
+  #partners li:nth-child(3){
+    background-image: url(../images/bareun.png);
+    margin-right: 8px;
+  }
+  #partners li:nth-child(4){
+    background-image: url(../images/symhpony.png);
+  }
+
+  /* Footer */
+  #footer {
+    width: 100%;
+    height: 145px;
+    background-color: var(--whoz-color);
+  }
+  #footer p {
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 145px;
+  }
+}
